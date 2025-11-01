@@ -18,26 +18,20 @@ All the images are saved along with a CSV file that has labels and coordinates o
 
 ## Folder Structure
 
-MNIST_Handwritten_Exponent_Dataset_Generator/
-│
-├── mnist_cropper.ipynb # Code to crop MNIST digits
-├── exponent_dataset_generator.ipynb # Code to combine digits and create dataset
-│
-├── cropped_mnist_digits/ # Contains cropped MNIST samples (10 samples added)
-├── exponent_digits/ # Smaller digits created by the program
-├── combined_dataset/ # Final base + exponent samples (10 samples added)
-│
-├── annotations.csv # Labels for generated images
-├── requirements.txt
-└── README.md
+mnist_cropper.ipynb # Code to crop MNIST digits
+exponent_dataset_generator.ipynb # Code to combine digits and create dataset
+cropped_mnist_digits/ # Contains cropped MNIST samples (10 samples added)
+exponent_digits/ # Smaller digits created by the program
+combined_dataset/ # Final base + exponent samples (10 samples added)
+annotations.csv # Labels for generated images
 ---
 
 ## Example Images
 
 | Cropped MNIST Digit | Combined Base+Exponent |
 |---------------------|------------------------|
-| ![Cropped MNIST Digit](cropped_mnist_digits/sample_0.png) | ![Combined](combined_dataset/combined_0.png) |
-| ![Cropped MNIST Digit](cropped_mnist_digits/sample_3.png) | ![Combined](combined_dataset/combined_3.png) |
+| ![Cropped MNIST Digit](cropped_mnist_digits/mnist_0_5.png) | ![Combined](combined_dataset/combined_0.png) |
+| ![Cropped MNIST Digit](cropped_mnist_digits/mnist_5_2.png) | ![Combined](combined_dataset/combined_3.png) |
 
 ---
 
