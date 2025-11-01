@@ -1,0 +1,19 @@
+# Core numerical and data utilities
+numpy>=1.26.0
+pandas>=2.2.0
+
+# Machine Learning / MNIST dataset loader
+tensorflow>=2.12.0
+
+# Image processing libraries
+opencv-python>=4.9.0
+Pillow>=10.0.0
+
+# Visualization
+matplotlib>=3.8.0
+
+# Progress bars
+tqdm>=4.66.0
+
+# Optional utilities (for dataset splitting and future model integration)
+scikit-learn>=1.3.0
