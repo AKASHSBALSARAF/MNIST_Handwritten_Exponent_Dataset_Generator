@@ -18,12 +18,12 @@ All the images are saved along with a CSV file that has labels and coordinates o
 
 ## Folder Structure
 
-mnist_cropper.ipynb # Code to crop MNIST digits
-exponent_dataset_generator.ipynb # Code to combine digits and create dataset
-cropped_mnist_digits/ # Contains cropped MNIST samples (10 samples added)
-exponent_digits/ # Smaller digits created by the program
-combined_dataset/ # Final base + exponent samples (10 samples added)
-annotations.csv # Labels for generated images
+> mnist_cropper.ipynb # Code to crop MNIST digits
+> exponent_dataset_generator.ipynb # Code to combine digits and create dataset
+> cropped_mnist_digits/ # Contains cropped MNIST samples (10 samples added)
+> exponent_digits/ # Smaller digits created by the program
+> combined_dataset/ # Final base + exponent samples (10 samples added)
+> annotations.csv # Labels for generated images
 ---
 
 ## Example Images
