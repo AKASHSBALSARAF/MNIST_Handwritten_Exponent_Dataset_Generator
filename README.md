@@ -76,9 +76,9 @@ python exponent_dataset_generator.py
 - Each image has one main digit and one small digit in the top-right corner like an exponent.
 - The CSV file `annotations.csv` looks something like this:
 
-| base_digit | exponent_digit | image_path | exp_x | exp_y |
-|-------------|----------------|-------------|-------|-------|
-| 7 | 2 | combined_dataset/combined_001.png | 38 | 10 |
+| base_digit | exponent_digit | image_path |
+|-------------|----------------|-------------|
+| 1 | 5 | combined_dataset/combined_0.png |
 
 ---
 
